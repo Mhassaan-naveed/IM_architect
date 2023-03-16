@@ -1,0 +1,174 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    margin: 0%;
+}
+
+.page-heading {
+    color: #231955;
+}
+
+nav {
+    background-color: white;
+    height: 6rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2.nav {
+    display: inline;
+    padding: 2rem;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: darkgray;
+}
+
+.bg-img {
+    width: 100%;
+    height: 70%;
+}
+
+.main-1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.main-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    margin-top: 2rem;
+    height: 20rem;
+    width: 33rem;
+}
+
+.box-img {
+    height: 20rem;
+    width: 100%;
+}
+
+.text {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 3rem;
+}
+
+.description {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.team-img {
+    width: 100%;
+}
+
+.about-box {
+    width: 33rem;
+    margin-top: 2rem;
+}
+
+
+.btn {
+    width: 100%;
+    height: 3rem;
+    background-color: #1F4690;
+    border: 1px solid #1F4690;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #1F4690;
+    border: 1px solid #1F4690;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    color: black;
+
+}
+
+.btn-1 {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #1F4690;
+    border: 2px solid #1F4690;
+    height: 4rem;
+    margin: 3rem;
+    width: 16rem;
+}
+
+.btn-1:hover {
+    background-color: white;
+    border: 2px solid #1F4690;
+    color: #1F4690;
+
+}
+
+.last-img {
+    max-width: 100%;
+}
+
+.last {
+    margin: 3rem;
+}
+
+footer {
+    height: 6rem;
+    background-color: #1F4690;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    font-size: 2rem;
+
+}
+
+input {
+    border: 1px solid #1F4690;
+}
